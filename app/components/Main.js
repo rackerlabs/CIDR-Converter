@@ -56,12 +56,12 @@ var Main = React.createClass({
 					<span style={labelSpan}>to</span>
 					<input type="text" placeholder="Range End"  ref={this.setRangeEnd} />
 
-					<span className="rs-validation-block" style={{margin:'0 0 0 3%'}}>
+					<span className="rs-validation-block" style={{margin:'0 0 0 58px'}}>
 						<i className="rs-validation-indicator"></i>
 						{this.state.errorMessage}
 					</span>
 				</div>
-				<Button onClick={this.convertIPs} type="secondary" style={{margin: '1% 0 0 3%'}}>Convert</Button>
+				<Button onClick={this.convertIPs} type="secondary" style={{margin: '10px 0 0 58px'}}>Convert</Button>
 				<div>
 					<ul style={{padding: '2%'}}>
 						{this.state.cidrIPs.map && this.state.cidrIPs.map(function(ip, index) {
