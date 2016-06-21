@@ -46,7 +46,7 @@ var Main = React.createClass({
 	},
 	render: function() {
 		return (
-			<div style={{padding:'20px'}}>
+			<div style={{padding:'20px',width: '400px'}}>
 				<h2 className="rs-page-title">
 					CIDR Converter
 				</h2>
