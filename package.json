@@ -4,7 +4,7 @@
   "description": "converts ip ranges into CIDR notation",
   "main": "CIDR.js",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack && webpack-dev-server"
   },
   "repository": {
     "type": "git",
